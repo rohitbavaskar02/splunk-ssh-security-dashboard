@@ -79,42 +79,41 @@ source="ssh_logs_new.json" host="LAPTOP-1HDC9PNI" sourcetype="_json" event_type=
 ### 1. Edit Dashboard — Add Input Menu
 Configuring dashboard inputs (Text, Radio, Dropdown, Time, etc.) while building the dashboard.
 
-![Edit Dashboard Add Input](001_edit_dashboard_add_input.png)
+![Edit Dashboard Add Input](001_Splunk_Dashboard_Edit_Mode.png)
 
 ### 2. Time Range Input Configuration
 Setting up the shared time-range token (`time_range`) with default value *All time*.
 
-![Time Range Input Configuration](002_time_range_input_configuration.png)
-
+![Time Range Input Configuration](002_Time_Range_Input_Configuration.png)
 ### 3. Total SSH Events — Search Configuration
 SPL query counting all ingested SSH events.
 
-![Total SSH Events Search](003_total_ssh_events_search.png)
+![Total SSH Events Search](003_Total_SSH_Events_Search_Configuration.png)
 
 ### 4. Successful SSH Login — Search Configuration
 SPL query counting successful SSH login attempts.
 
-![Successful SSH Login Search](004_successful_ssh_login_search.png)
+![Successful SSH Login Search](004_Successful_SSH_Login_Search_Configuration.png)
 
 ### 5. Failed SSH Login — Search Configuration
 SPL query counting failed SSH login attempts.
 
-![Failed SSH Login Search](005_failed_ssh_login_search.png)
+![Failed SSH Login Search](005_Failed_SSH_Login_Search_Configuration.png)
 
 ### 6. Failed SSH Login by IP — Search Configuration
 SPL query listing top source IPs by failed login count.
 
-![Failed SSH Login by IP Search](006_failed_ssh_login_by_ip_search.png)
+![Failed SSH Login by IP Search](006_Failed_SSH_Login_By_IP_Search_Configuration.png)
 
 ### 7. Connection Without Authentication — Search Configuration
 SPL query counting connections with no authentication.
 
-![Connection Without Authentication Search](007_connection_without_authentication_search.png)
+![Connection Without Authentication Search](007_Connection_Without_Authentication_Search_Configuration.png)
 
 ### 8. Final Dashboard View
 The completed SSH Security Dashboard with all panels live.
 
-![Final Dashboard View](008_ssh_dashboard_final_view.png)
+![Final Dashboard View](008_SSH_Security_Dashboard_Final_View.png)
 
 ---
 *Built as part of hands-on SOC / cybersecurity monitoring practice.*
